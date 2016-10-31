@@ -68,6 +68,7 @@
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
+                    <finalName>${project.artifactId}</finalName>
                     <descriptorSourceDirectory>${project.basedir}/src/assemble</descriptorSourceDirectory>
                 </configuration>
             </plugin>

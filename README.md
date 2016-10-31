@@ -165,8 +165,8 @@ git clone git@github.com:BrandwatchLtd/robots.git
 cd robots
 mvn clean package
 cd cli/target
-tar xvfz robots-cli-[version]-bin-with-deps.tar.gz
-cd robots-cli-[version]
+tar xvfz robots-cli-bin-with-deps.tar.gz
+cd robots-cli
 ```
 
 ### Running CLI
