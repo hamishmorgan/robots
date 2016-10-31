@@ -169,6 +169,14 @@ tar xvfz robots-cli-bin-with-deps.tar.gz
 cd robots-cli
 ```
 
+### Building and running the CLI Docker image
+
+```sh
+mvn clean package
+docker build -t robots cli
+docker run -it robots http://www.brandwatch.com
+```
+
 ### Running CLI
 
 From the extracted directory, simply run the robots scripts followed by a resource URI:
